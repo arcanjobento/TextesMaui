@@ -1,5 +1,7 @@
 <Solution>
   <Project Path="TextesMaui.AppHost/TextesMaui.AppHost.csproj" />
   <Project Path="TextesMaui.ServiceDefaults/TextesMaui.ServiceDefaults.csproj" />
-  <Project Path="TextesMaui/TextesMaui.csproj" />
+  <Project Path="TextesMaui/TextesMaui.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
 </Solution>

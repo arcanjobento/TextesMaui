@@ -1,8 +1,16 @@
 {
+  "ConnectionStrings": { "DefaultConnection": "server=172.16.10.251;database=appge;user=root;password=MysqlAppge051219*?" },
   "profiles": {
-    "Windows Machine": {
+
+    "Windows Mechine": {
       "commandName": "Project",
-      "nativeDebugging": false
+      "commandLineArgs":""
+    },
+    "MsixPackage": {
+      "commandName": "MsixPackage",
+      "commandLineArgs": "",
+      "nativeDebugging": true
     }
   }
+
 }
